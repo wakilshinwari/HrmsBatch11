@@ -1,0 +1,61 @@
+
+
+the benefits of inheritance
+1. saves time
+ti takes less memory
+execution time is less
+code duplication is reduced
+
+disadvantages
+1. we have base class and child class
+both are tightly coupled. hence if you change the code of the parent class, it will affect all the child
+classes
+types of of inheritance:
+
+there are 4 tyes of inheritances supported in most of OOP langauges
+but java onely supports 3 types with class
+
+single
+multilevel
+hierirchical
+
+multiple ( this is not supported by Java because of the dimond problem)
+
+if we have onely one parent and one child, it is single inheritance
+E.g.
+public class Parent{
+public class Child extends Parent{
+}
+
+Hierarchical:
+if we have one parent class and multiple childeren classes, it is called Hierarchical.
+public class Parent{
+
+public class Child1 extends Parent {
+}
+public class child2 extends Parent{
+}
+Public class child3 extends Parent{
+}
+Public class child4 extends Parent{
+
+}
+Multilevel inheritance:
+A class extends from another class that is alraedy extended from another class
+public class Parent extends GrandParent{
+
+}
+class Child extends Parent
+
+Multiple ( not supported by Java)
+
+one child and multiple parents
+
+public class Parent1{
+}
+public class Parent2{
+
+}
+public class Child extends Parent1, parent2{
+
+}

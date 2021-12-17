@@ -1,0 +1,32 @@
+package Task1.Java;
+
+public class Task1 {
+
+    //Write program for multilevel inheritance where class A inherited by 
+    //	B and class B inherit class by C.
+    public static void main(String[] args) {
+        c b=new c(){
+        }
+    }
+    }
+    class A {
+        public A(){
+            System.out.println("A");
+        }
+    }
+    class B extends A {
+        public B() {
+            System.out.println("B");
+        }
+    }
+    class c extends A {
+        public c() {
+            System.out.println("C");
+
+        }
+    }
+    class A extends A{
+        public A() {
+            System.out.println("A");
+        }
+    }
