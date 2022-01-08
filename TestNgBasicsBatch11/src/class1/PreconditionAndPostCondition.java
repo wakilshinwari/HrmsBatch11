@@ -6,19 +6,22 @@ import org.testng.annotations.Test;
 
 public class PreconditionAndPostCondition {
     @BeforeMethod
-    public void beforeMethod(){
+    public void beforeMethod() {
         System.out.println("I am pre condition");
     }
+
     @AfterMethod
-    public  void afterMethod(){
+    public void afterMethod() {
         System.out.println("I am post condition ");
     }
+
     @Test
-    public void test(){
+    public void test() {
         System.out.println("I am actual test");
     }
+
     @Test
-    public  void anotherTest(){
+    public void anotherTest() {
         System.out.println(" Iam another test");
     }
 }
