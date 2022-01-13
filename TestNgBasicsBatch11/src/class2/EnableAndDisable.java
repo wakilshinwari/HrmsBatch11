@@ -15,9 +15,13 @@ public class EnableAndDisable {
     public void thirdTest(){
         System.out.println(" I am the third");
     }
+<<<<<<< HEAD
 
 @Test(priority = 3, enabled = false)
 public void testEnable(){
     System.out.println("Test");
 }
 }
+=======
+}
+>>>>>>> origin/master

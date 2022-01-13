@@ -4,6 +4,7 @@ import org.testng.annotations.*;
 
 public class BeforeSuitAndBeforeTest {
     @BeforeSuite
+<<<<<<< HEAD
     public void beforeSuite() {System.out.println("I am before suite");}
 
     @AfterSuite
@@ -28,3 +29,21 @@ public class BeforeSuitAndBeforeTest {
             @Test
             public void normalTest () {System.out.println(" Iam common test");}
         }
+=======
+    public void beforeSuite(){
+        System.out.println("I am before suite");
+    }
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("I am after suite");
+    }
+    @BeforeTest
+    public void beforeTest(){
+        System.out.println("I am before test");
+    }
+    @AfterTest
+    public void afterTest(){
+        System.out.println("I am after test");
+    }
+}
+>>>>>>> origin/master
